@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+import { VideoHighlight } from './components/VideoHighlight';
 import { About } from './components/About';
 import { Services } from './components/Services';
 import { WhyChooseUs } from './components/WhyChooseUs';
@@ -30,6 +31,9 @@ const App: React.FC = () => {
         <section id="inicio">
           <Hero />
         </section>
+
+        {/* Video Section added before About Us */}
+        <VideoHighlight />
 
         <section id="sobre">
           <About />
