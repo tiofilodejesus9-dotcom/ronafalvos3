@@ -9,7 +9,7 @@ export const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-ronaf-navy/95 via-ronaf-navy/90 to-ronaf-blue/80 z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" 
+          src="https://i.postimg.cc/d1Kn4ym7/IMG_20260105_WA0034.jpg" 
           alt="Office Background" 
           className="w-full h-full object-cover"
         />
@@ -75,12 +75,12 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="hidden lg:block relative"
+          className="hidden lg:block relative max-w-sm mx-auto"
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 group">
             <div className="absolute inset-0 bg-ronaf-blue/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
             <img 
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" 
+              src="https://i.postimg.cc/d1Kn4ym7/IMG_20260105_WA0034.jpg" 
               alt="Business Strategy" 
               className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
             />

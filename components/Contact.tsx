@@ -3,14 +3,14 @@ import { Phone, Mail, MapPin, Facebook, Instagram } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
-    <div className="bg-slate-50 py-24">
+    <div className="bg-ronaf-navy py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-ronaf-gold font-bold tracking-wider uppercase text-sm">Fale Connosco</span>
-          <h2 className="mt-2 text-3xl md:text-4xl font-extrabold heading-font text-ronaf-navy">
+          <h2 className="mt-2 text-3xl md:text-4xl font-extrabold heading-font text-white">
             Estamos à sua espera
           </h2>
-          <p className="mt-4 text-slate-500 max-w-xl mx-auto">
+          <p className="mt-4 text-slate-300 max-w-xl mx-auto">
             Entre em contacto hoje mesmo e descubra como podemos acelerar o seu negócio.
           </p>
         </div>
@@ -18,7 +18,7 @@ export const Contact: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
-            <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-slate-100 h-full flex flex-col justify-between">
+            <div className="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-white/10 h-full flex flex-col justify-between">
               <div>
                 <h3 className="text-2xl font-bold text-ronaf-navy mb-8">Informações de Contacto</h3>
                 
@@ -88,7 +88,7 @@ export const Contact: React.FC = () => {
           </div>
 
           {/* Image */}
-          <div className="bg-ronaf-navy rounded-2xl overflow-hidden shadow-2xl min-h-[400px] relative group">
+          <div className="bg-ronaf-blue rounded-2xl overflow-hidden shadow-2xl min-h-[400px] relative group border border-white/10">
               <div className="absolute inset-0 bg-gradient-to-t from-ronaf-navy/90 via-ronaf-navy/40 to-transparent z-10"></div>
               <img 
                 src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 

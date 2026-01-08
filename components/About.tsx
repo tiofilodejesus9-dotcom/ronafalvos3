@@ -18,7 +18,7 @@ export const About: React.FC = () => {
              <div className="absolute -top-4 -left-4 w-24 h-24 bg-ronaf-blue/10 rounded-full z-0"></div>
              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-ronaf-gold/10 rounded-full z-0"></div>
              <img 
-               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+               src="https://i.postimg.cc/Kct70jRY/Gemini_Generated_Image_33lah833lah833la.png" 
                alt="Team Working" 
                className="relative z-10 rounded-xl shadow-2xl w-full h-auto object-cover aspect-[4/3]"
              />
