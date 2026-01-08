@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Services } from './components/Services';
 import { WhyChooseUs } from './components/WhyChooseUs';
+import { Banners } from './components/Banners';
 import { CtaSection } from './components/CtaSection';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
@@ -36,6 +37,10 @@ const App: React.FC = () => {
 
         <section id="servicos">
           <Services />
+        </section>
+
+        <section id="galeria">
+          <Banners />
         </section>
 
         <section id="por-que-nos">

@@ -12,6 +12,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
     { name: 'Início', href: '#inicio' },
     { name: 'Quem Somos', href: '#sobre' },
     { name: 'Serviços', href: '#servicos' },
+    { name: 'Galeria', href: '#galeria' },
     { name: 'Vantagens', href: '#por-que-nos' },
     { name: 'Contacto', href: '#contacto' },
   ];
