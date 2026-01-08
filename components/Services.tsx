@@ -56,14 +56,14 @@ const services = [
 
 export const Services: React.FC = () => {
   return (
-    <div className="py-24 bg-slate-50">
+    <div className="py-24 bg-ronaf-navy">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <span className="text-ronaf-blue font-bold tracking-wider uppercase text-sm">O Que Fazemos</span>
-          <h2 className="mt-2 text-3xl md:text-5xl font-extrabold heading-font text-ronaf-navy">
+          <span className="text-ronaf-gold font-bold tracking-wider uppercase text-sm">O Que Fazemos</span>
+          <h2 className="mt-2 text-3xl md:text-5xl font-extrabold heading-font text-white">
             Nossas Soluções
           </h2>
-          <p className="mt-4 text-xl text-slate-500 max-w-2xl mx-auto">
+          <p className="mt-4 text-xl text-slate-300 max-w-2xl mx-auto">
             Da legalização ao suporte operacional: tudo o que a sua empresa precisa num só lugar.
           </p>
         </div>
