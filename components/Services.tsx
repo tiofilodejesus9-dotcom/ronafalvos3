@@ -15,42 +15,42 @@ const services = [
   {
     icon: <Building2 className="w-10 h-10" />,
     title: "Constituição de Empresas",
-    description: "Tratamos de todo o processo legal para abrir a sua empresa rapidamente."
+    description: "Tratamos de todo o processo legal e burocrático para a abertura da sua empresa."
   },
   {
     icon: <FileCheck className="w-10 h-10" />,
     title: "Alvará Comercial",
-    description: "Tratamento de Alvará Comercial e de Prestação de Serviços com agilidade."
+    description: "Tratamento de Alvará Comercial e de Prestação de Serviços com máxima agilidade."
   },
   {
     icon: <Users className="w-10 h-10" />,
-    title: "Inscrição no INSS",
-    description: "Regularização e abertura de contas na Segurança Social para sua empresa e funcionários."
+    title: "Abertura na INSS",
+    description: "Regularização completa e inscrição da empresa e funcionários na Segurança Social."
   },
   {
     icon: <CreditCard className="w-10 h-10" />,
-    title: "Registo no SIGFE",
+    title: "Conta no SIGFE",
     description: "Inserção do número de conta no SIGFE para recebimento por ordem de saque."
   },
   {
     icon: <Sparkles className="w-10 h-10" />,
     title: "Serviços de Limpeza",
-    description: "Limpeza profissional para casas, ruas, escolas, hospitais e empresas."
+    description: "Higienização profissional para casas, ruas, escolas, hospitais e empresas."
   },
   {
     icon: <PenTool className="w-10 h-10" />,
     title: "Logotipo e Carimbo",
-    description: "Criação de identidade visual corporativa, logotipos e carimbos personalizados."
+    description: "Criação de identidade visual profissional, logotipos e carimbos empresariais."
   },
   {
     icon: <Receipt className="w-10 h-10" />,
-    title: "Faturação AGT",
-    description: "Emissão de faturas certificadas e reconhecidas pela AGT (Administração Geral Tributária)."
+    title: "Emissão de Fatura AGT",
+    description: "Software e emissão de faturas certificadas e reconhecidas pela AGT."
   },
   {
     icon: <Package className="w-10 h-10" />,
     title: "Fornecimento de Material",
-    description: "Venda e entrega de material escolar, hospitalar e de escritório."
+    description: "Fornecimento completo de material escolar, hospitalar e de escritório."
   }
 ];
 
@@ -64,7 +64,7 @@ export const Services: React.FC = () => {
             Nossas Soluções
           </h2>
           <p className="mt-4 text-xl text-slate-500 max-w-2xl mx-auto">
-            Um leque completo de serviços para garantir a legalidade, funcionamento e imagem do seu negócio.
+            Da legalização ao suporte operacional: tudo o que a sua empresa precisa num só lugar.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export const Services: React.FC = () => {
               transition={{ delay: index * 0.1, duration: 0.5 }}
               className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-2xl transition-all duration-300 border border-slate-100 group"
             >
-              <div className="w-16 h-16 bg-slate-50 rounded-2xl flex items-center justify-center text-ronaf-blue mb-6 group-hover:bg-ronaf-blue group-hover:text-white transition-colors duration-300">
+              <div className="w-16 h-16 bg-slate-50 rounded-2xl flex items-center justify-center text-ronaf-blue mb-6 group-hover:bg-ronaf-blue group-hover:text-white transition-colors duration-300 shadow-inner">
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold text-ronaf-navy mb-3 group-hover:text-ronaf-blue transition-colors">

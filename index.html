@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt-AO">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="https://lucide.dev/icons/target.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RONAF ALVOS | Atingimos o seu alvo</title>
-    <meta name="description" content="RONAF ALVOS – Atingimos o seu alvo de forma rápida e segura. Especialistas em constituição de empresas, alvarás, INSS, SIGFE e serviços gerais." />
+    <meta name="description" content="RONAF ALVOS – Atingimos o seu alvo de forma rápida e segura. Constituição de empresas, alvarás, INSS, SIGFE, limpeza e material de escritório." />
+    <meta name="theme-color" content="#0f172a" />
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Tailwind CSS (via CDN for simplicity) -->
+    <!-- Tailwind CSS (CDN removido em favor do build do Vite, mas mantido aqui para preview rápido se necessário, idealmente o Vite processa o CSS) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -41,6 +42,7 @@
       }
       body {
         font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
       }
       .heading-font {
         font-family: 'Montserrat', sans-serif;
